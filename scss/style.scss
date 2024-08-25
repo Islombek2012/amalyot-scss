@@ -1,0 +1,15 @@
+@import './foundation/mixin';
+
+.nav-list{
+      border: 5px solid black;
+     
+}
+h1{
+      @include font(50, 29, 800, red);
+      @include media(1000px){
+                  font-size: 50px;
+                  text-transform: uppercase;
+                  box-shadow: 5px 5px rgba(0, 0, 0, 0.187);
+                  color: gray;
+      }
+}
